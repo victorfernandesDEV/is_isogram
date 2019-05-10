@@ -9,7 +9,7 @@ def is_isogram(word):
 	return True
 
 #solicita entrada do usuário com a palavra a ser verificada
-word = input("Informe a palavra: ")
+word = input("Informe a palavra: ").lower()
 
 #saida com a informação se a palavra é ou não um isograma
 print(is_isogram(word))
